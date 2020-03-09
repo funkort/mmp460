@@ -1,0 +1,36 @@
+<!--> my gradients are based on these color
+relationships
+https://www.colorhexa.com/ffe14d<-->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>kassim_JS_460</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="dist/granim.min.js"></script>
+</head>
+
+    
+<body>
+    <h3> maryam's mmp 460 javascript submission</h3>
+    <canvas id="canvas-basic"></canvas>
+</body>
+</html>
+
+<script>
+var granimInstance = new Granim({
+    element: '#canvas-basic',
+    direction: 'left-right',
+    isPausedWhenNotInView: true,
+    states : {
+        "default-state": {
+            gradients: [
+                ['#ffe14d', '#c4ff4d'],
+                ['#e14dff', '#884dff'],
+                ['#4dffe1', '#4d6bff']
+            ]
+        }
+    }
+});
+</script>
